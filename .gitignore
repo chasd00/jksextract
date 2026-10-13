@@ -1,0 +1,15 @@
+# Local build output (release binaries live in bin/)
+/dist/
+/jksextract
+/jksextract.exe
+
+# Never commit extracted secrets or test keystores
+*.key
+*.jks
+*.p12
+*.pfx
+*.pem
+*.crt
+!testdata/**
+
+.DS_Store
